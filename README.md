@@ -14,4 +14,4 @@ hostPort=6379
 auth=123456  
 #XML中开启二级缓存即可  
 <cache type="com.lizhengpeng.myrecache.core.MyreCache" size="2048"/>  
-# 使用mybatis二级缓存时请注意多表更新操作时的脏读问题！！！！！！ 
+# 使用二级缓存时请注意多表操作时的脏读问题！！！！！！ 
