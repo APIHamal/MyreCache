@@ -1,13 +1,10 @@
 # MyreCache mybatis整合redis作为二级缓存  
-增加配置文件myrecache.properties即可使用 配置内容如下  
-#jedis连接池相关配置  
-#jedis连接池配置全部以模式pool.开始  
+CLASSPATH下增加配置文件myrecache.properties即可使用 配置内容如下  
+#jedisPool配置全部以模式pool.开始  
 #配置池容量上限  
 pool.maxTotal=30  
 #配置空闲连接上限  
 pool.maxIdle=10  
-#配置超时时间  
-pool.maxWaitMillis=500  
 #Jedis连接Redis服务时相关配置  
 #redis服务器地址  
 hostName=192.168.168.168  
