@@ -11,5 +11,5 @@ hostPort=6379
 #redis授权口令(如果不需要授权则不需要配置)  
 auth=123456  
 #redis配置完成开启二级缓存即可  
-#<cache type="com.lizhengpeng.myrecache.core.MyreCache" size="2048"/>   
+#&lt;cache type="com.lizhengpeng.myrecache.core.MyreCache" size="2048"/&gt;   
 # 使用二级缓存时请注意多表操作时的脏读问题！！！！！！ 
